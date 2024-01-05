@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
 	return(
-		<main>
+		<main className="contentMain">
 			<div className="content">
 				<div className="contentContainer">
 					<div className="Title">
@@ -27,4 +27,4 @@ const Content = () => {
 	)
 }
 
-export default Content
+export default Content;
