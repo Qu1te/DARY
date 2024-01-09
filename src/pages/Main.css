@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 @font-face {
     font-family:Pacifico-Regular;
     src: url(../font/Pacifico-Regular.ttf);
@@ -28,6 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
 }
 
 .navButton{
@@ -46,92 +48,110 @@
 .navigation ul {
     list-style: none;
     display: flex;
+    font-weight: bold;
+    margin-right: 150px;
 } 
 
 .navigation li{
-    margin-left: 10px;
+    margin-left: 60px;
+    font-size: 20px;
 }
 
                         /*-----------------Content-----------------*/
 
-
-.content{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body{
     background-color: #1E2430;
-    color: white;
-}
-
-.contentContainer{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 60%;
 }
 
 .Title{
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    justify-content: center;
     margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
     font-family:Pacifico-Regular;
+    font-weight: bold;
+    font-size: 30px;
 }
 
-.Inputfield{
+.TEXT{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
 }
 
-.Inputfield input{
-    border: none;
-	border-bottom: 2px solid #D7C526;
-	background: none;
-	padding: 10px;
-	padding-left: 24px;
-	font-weight: 700;
-	transition: .2s;
-	font-family: Raleway, sans-serif;
-    font-size: medium;
-    outline: none;
-    color: white;
+.TEXT textarea{
+    width: 80%;
+    height: 500px;
+    border: 0;
     padding: 0;
-    width:100%;
-    margin-bottom: 20px;
-    
+    resize: none;
+    border-radius: 10px;
+    color: white;
+    background: #212835;
+    box-shadow:0px 4px 1px 0px #1a1a1a;
+    border-color:#212835;
+    outline: none !important;
+    font-weight: bold;
+    font-size: 25px;
 }
 
-.saveButton{
-    display: flex;
+.Save{
     width: 100%;
-    justify-content: end;
-}
-
-.saveButton button{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    margin-top: 30px;
+}
+
+.SaveButton{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.SaveButton button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    background: #212835;
     border-radius: 15px;
     border: none;
     box-shadow:0px 4px 1px 0px #1a1a1a;
-    width: 20%;
-    height: 90px;
-    background: #212835;
+    color: white;
     cursor: pointer;
     font-family:Jomhuria;
     font-size: 80px;
     transition-duration: 0.4s;
 }
 
-.saveButton button:hover{
+
+.SaveButton button:hover{
     background-color: #27303f;
     transform: scale(1.1,1.1);
     transition-duration: 0.4s;
+    
+}
+
+.TEXT textarea ::-webkit-scrollbar{
+    width: 6px;
+	background-color: #F5F5F5;
+}
+
+@media (max-width:782px){
+	.navButton{
+		 display: none;
+	}
+
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+
 }
