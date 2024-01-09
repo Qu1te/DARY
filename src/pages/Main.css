@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 @font-face {
     font-family:Pacifico-Regular;
     src: url(../font/Pacifico-Regular.ttf);
@@ -54,7 +55,6 @@
 
                         /*-----------------Content-----------------*/
 
-
 .content{
     width: 100%;
     display: flex;
@@ -64,12 +64,14 @@
     color: white;
 }
 
+
 .contentContainer{
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     width: 60%;
+    
 }
 
 .Title{
@@ -134,4 +136,18 @@
     background-color: #27303f;
     transform: scale(1.1,1.1);
     transition-duration: 0.4s;
+}
+
+
+@media (max-width:649px){
+	.navButton{
+		 display: none;
+	}
+
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+
 }

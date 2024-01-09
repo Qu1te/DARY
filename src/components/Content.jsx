@@ -1,6 +1,8 @@
-import React from "react";
+import React,{useState,useRef} from "react";
 
 const Content = () => {
+	
+
 	return(
 		<main className="contentMain">
 			<div className="content">
@@ -9,14 +11,9 @@ const Content = () => {
 						<h1>DIARY</h1>
 					</div>
 					<div className="Inputfield">
-						<input type="text" />
-						<input type="text" />
-						<input type="text" />
-						<input type="text" />
-						<input type="text" />
-						<input type="text" />
-						<input type="text" />
-						<input type="text" />
+						
+						
+						
 					</div>
 					<div className="saveButton">
 						<button>Save</button>

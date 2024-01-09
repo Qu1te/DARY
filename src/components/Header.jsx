@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar from "../pages/NavBar";
 
 const Header = () => {
     return(
@@ -7,11 +8,13 @@ const Header = () => {
                 <div className="navLogo">
                     <p>Logo</p>
                 </div>
+                <NavBar/>
                 <div className="navButton">
                     <nav className="navigation">
                         <p>:</p>
                         <ul>
                             <li>New list</li>
+                            <li>History</li>
                             <li>About us</li>
                             <li>Sign In</li>
                         </ul>
