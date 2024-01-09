@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../pages/NavBar";
-
+import {Link} from "react-router-dom"
 const Header = () => {
     return(
         <header>
@@ -12,10 +12,10 @@ const Header = () => {
                 <div className="navButton">
                     <nav className="navigation">
                         <ul>
-                            <li>:New list</li>
-                            <li>History</li>
-                            <li>About us</li>
-                            <li>Sign In</li>
+                            <Link><li>:New list</li></Link>
+                            <Link><li>History</li></Link>
+                            <Link><li>About us</li></Link>
+                            <Link><li>Sign In</li></Link>
                         </ul>
                     </nav>
                 </div>

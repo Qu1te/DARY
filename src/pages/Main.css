@@ -55,7 +55,11 @@
 .navigation li{
     margin-left: 60px;
     font-size: 20px;
+    color: white;
+    text-decoration: none;
 }
+
+
 
                         /*-----------------Content-----------------*/
 
