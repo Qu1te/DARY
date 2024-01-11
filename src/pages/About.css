@@ -1,53 +1,8 @@
-@font-face {
-    font-family: crewniverse_font_V6_0;
-    src: url(../font/crewniverse_font_V6_0.ttf);
-}   
-
-@font-face {
-    font-family: Jomhuria-Regular;
-    src: url(../font/Jomhuria-Regular.ttf);
-}
-
-@font-face {
-    font-family: versus-ultra_RUS_BY_LYAJKA;
-    src: url(../font/versus-ultra_RUS_BY_LYAJKA.ttf);
-}
-
-*{
-    color: white;
-}
-/*------------------------------------------------------*/
-
 .name{
-    font-size: 80px;
+    font-size: 50px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family:Jomhuria-Regular;
-    letter-spacing: 3px;
-    margin-top: 30px;
-}
-
-.all{
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 8%;
-    margin-right: 8%;
-    font-family: versus-ultra_RUS_BY_LYAJKA;
-}
-
-.text{
-    margin-right: 40px;
-}
-
-.butimf{
-    display: flex;
-    align-items: right;
-    justify-content: right;
-    max-width: 640px;
-    height: auto;
-    border-radius: 20%;
+    font-family:BordersDivideButHeartsShall[RUSbyPenka220]-Regular;
 }

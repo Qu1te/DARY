@@ -1,5 +1,5 @@
 import Main from "./pages/Main";
-import AboutUs from "./components/About";
+import AboutUs from "./pages/About";
 import { getAllByLabelText } from "@testing-library/react";
 import {BrowserRouter,RouterProvider,createBrowserRouter} from "react-router-dom"
 function App() {

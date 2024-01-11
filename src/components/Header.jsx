@@ -15,7 +15,7 @@ const Header = () => {
                         <ul>
                             <Link style={{ textDecoration: 'none' }}><li>:New list</li></Link>
                             <Link style={{ textDecoration: 'none' }}><li>History</li></Link>
-                            <Link to="/About" style={{ textDecoration: 'none' }}><li>About us</li></Link>
+                            <Link to="/about" style={{ textDecoration: 'none' }}><li>About us</li></Link>
                             <Link style={{ textDecoration: 'none' }}><li>Sign In</li></Link>
                         </ul>
                     </nav>
