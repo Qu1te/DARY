@@ -1,5 +1,6 @@
 import Main from "./pages/Main";
 import AboutUs from "./pages/About";
+import HistoryPage from "./pages/History";
 import { getAllByLabelText } from "@testing-library/react";
 import {BrowserRouter,RouterProvider,createBrowserRouter} from "react-router-dom"
 function App() {
@@ -11,6 +12,10 @@ function App() {
     {
       path: "/about",
       element:<AboutUs/>
+    },
+    {
+      path: "/History",
+      element:<HistoryPage/>
     },
     
   ])
