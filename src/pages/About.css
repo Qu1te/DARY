@@ -1,0 +1,64 @@
+.name{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:BordersDivideButHeartsShall[RUSbyPenka220]-Regular;
+}
+.AboutUsText{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutUsTextConteiner{
+    width: 70%;
+    margin-top: 20px;
+    border: 3px solid #426f96;
+    border-radius: 10px;
+}
+
+.AboutUsTextConteiner p {
+    padding: 10px;
+    color: white;
+}
+
+.hider{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.hider button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: small;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius:100px;
+    width:40px;
+    height:40px;
+    padding:5px;
+    margin: 10% auto;
+    margin-top: 20px;
+    transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.hider button:hover{
+    width:125px;
+    background: rgb(59, 78, 102);
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    transition:.3s;
+    font-size: medium;
+  }
+  
+  .hider button:active{
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    transition: .05s
+  }
